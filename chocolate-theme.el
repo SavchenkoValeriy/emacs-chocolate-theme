@@ -38,6 +38,8 @@
   (mode-line-inactive (:foreground chocolate-hue-6-3 :background chocolate-hue-6 :box nil))
   (fringe (:background chocolate-syntax-bg))
   (linum (:foreground chocolate-hue-4-2))
+  (region (:background chocolate-syntax-light :distant-foreground chocolate-hue-4))
+  (secondary-selection (:background chocolate-syntax-light))
 
   ;; Built-in syntax
   (font-lock-builtin-face (:foreground chocolate-syntax-accent))
