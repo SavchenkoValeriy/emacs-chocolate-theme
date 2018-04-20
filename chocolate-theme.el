@@ -8,7 +8,6 @@
 
  ((((class color) (min-colors #xFFFFFF))) ;; color column 1 GUI/24bit
 
-
   (chocolate-mono-1         "#BFAAAE")
   (chocolate-mono-2         "#968185")
   (chocolate-mono-3         "#705B5F")
@@ -16,6 +15,7 @@
   (chocolate-hue-2          "#EAEAFE")
   (chocolate-hue-3          "#DC672C")
   (chocolate-hue-4          "#C7AE9D")
+  (chocolate-hue-4-2        "#937F73")
   (chocolate-hue-5          "#DF6B75")
   (chocolate-hue-5-2        "#BE5046")
   (chocolate-hue-6          "#D19965")
@@ -33,7 +33,7 @@
   (mode-line (:foreground chocolate-hue-6 :background chocolate-syntax-bg :box nil))
   (mode-line-inactive (:foreground chocolate-hue-6-3 :background chocolate-hue-6 :box nil))
   (fringe (:background chocolate-syntax-bg))
-  (linum (:foreground chocolate-syntax-light))
+  (linum (:foreground chocolate-hue-4-2))
 
   ;; Built-in syntax
   (font-lock-builtin-face (:foreground chocolate-syntax-accent))
