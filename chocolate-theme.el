@@ -4,7 +4,7 @@
   (error "Requires Emacs 24 or later"))
 
 (autothemer-deftheme
- chocolate "Pom-pom-pom"
+ chocolate "Poor doggies are not able to experience it because of two reasons"
 
  ((((class color) (min-colors #xFFFFFF))) ;; color column 1 GUI/24bit
 
