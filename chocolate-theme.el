@@ -1504,3 +1504,5 @@
   ))
 
 (provide-theme 'chocolate)
+
+;;; emacs-chocolate-theme.el ends here
