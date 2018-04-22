@@ -1,3 +1,16 @@
+;;; emacs-chocolate-theme.el --- Chocolatey theme for Emacs
+
+;; Copyright (c) 2018 Valeriy Savchenko (GNU/GPL Licence)
+
+;; Authors: Valeriy Savchenko <sinmipt@gmail.com>
+;; URL: http://github.com/SavchenkoValeriy/emacs-chocolate-theme
+;; Version: 0.1.0
+;; Package-Requires: ((autothemer "0.2"))
+
+;;; Commentary:
+;;  Poor doggies are not able to experience it because of two reasons
+
+;;; Code:
 (require 'autothemer)
 
 (unless (>= emacs-major-version 24)
