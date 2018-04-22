@@ -117,6 +117,9 @@
   (powerline-inactive2 (:background chocolate-syntax-bg-dark :inherit 'mode-line-inactive))
   (spaceline-highlight-face (:background chocolate-hue-6 :foreground chocolate-syntax-bg-dark))
 
+  ;; MODE SUPPORT: latex
+  (font-latex-sectioning-5-face (:foreground chocolate-hue-6-2))
+
   (ffap
    (:inherit 'highlight))
   (epa-field-body
