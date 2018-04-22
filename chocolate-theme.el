@@ -1,4 +1,4 @@
-;;; emacs-chocolate-theme.el --- Chocolatey theme for Emacs
+;;; chocolate-theme.el --- Chocolatey theme for Emacs
 
 ;; Copyright (c) 2018 Valeriy Savchenko (GNU/GPL Licence)
 
@@ -53,6 +53,7 @@
   (linum (:foreground chocolate-hue-4-2))
   (region (:background chocolate-syntax-light :distant-foreground chocolate-hue-4))
   (secondary-selection (:background chocolate-syntax-light))
+  (hl-line (:background chocolate-syntax-light))
 
   ;; Built-in syntax
   (font-lock-builtin-face (:foreground chocolate-syntax-accent))
@@ -1513,4 +1514,4 @@
 
 (provide-theme 'chocolate)
 
-;;; emacs-chocolate-theme.el ends here
+;;; chocolate-theme.el ends here
