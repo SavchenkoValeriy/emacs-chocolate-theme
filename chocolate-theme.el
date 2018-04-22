@@ -80,13 +80,23 @@
   (rainbow-delimiters-depth-12-face (:foreground chocolate-hue-6))
   (rainbow-delimiters-unmatched-face (:foreground chocolate-hue-4 nil))
 
-  ;; MODE SUPPORT: avy
-  ;;  (avy-lead-face-0                           (:foreground darktooth-bright_blue ))
-  ;;  (avy-lead-face-1                           (:foreground darktooth-bright_aqua ))
-  ;;  (avy-lead-face-2                           (:foreground darktooth-bright_purple ))
-  ;;  (avy-lead-face                             (:foreground darktooth-bright_red ))
-  ;;  (avy-background-face                       (:foreground darktooth-dark3 ))
-  ;;  (avy-goto-char-timer-face                  (:inherit 'highlight ))
+  ;; MODE SUPPORT: ivy
+  (ivy-prompt-match (:inherit 'ivy-current-match))
+  (ivy-highlight-face (:inherit 'highlight))
+  (ivy-action (:inherit 'font-lock-builtin-face))
+  (ivy-virtual (:foreground chocolate-mono-1))
+  (ivy-remote (:foreground chocolate-syntax-renamed))
+  (ivy-modified-buffer (:inherit 'default))
+  (ivy-subdir (:inherit 'dired-directory))
+  (ivy-match-required-face (:foreground chocolate-syntax-accent :inherit 'minibuffer-prompt))
+  (ivy-confirm-face (:foreground chocolate-syntax-bg-dark :inherit 'minibuffer-prompt))
+  (ivy-minibuffer-match-face-4 (:foreground chocolate-hue-6-2 :inherit 'ivy-minibuffer-match-face-1))
+  (ivy-minibuffer-match-face-3 (:foreground chocolate-syntax-added :inherit 'ivy-minibuffer-match-face-1))
+  (ivy-minibuffer-match-face-2 (:foreground chocolate-mono-1 :inherit 'ivy-minibuffer-match-face-1))
+  (ivy-minibuffer-match-face-1 (:weight 'bold :foreground chocolate-mono-3 :background chocolate-syntax-bg-dark))
+  (ivy-minibuffer-match-highlight (:inherit 'highlight))
+  (ivy-current-match (:weight 'bold :background chocolate-mono-3))
+  (ivy-cursor (:foreground chocolate-hue-2 :background chocolate-syntax-bg-dark))
 
   ;; MODE SUPPORT: popup
   (popup-face (:foreground chocolate-hue-4
@@ -963,7 +973,7 @@
   (magit-section-heading
    (:weight 'bold :foreground chocolate-hue-1))
   (magit-section-highlight
-   (:inherit 'hl-line))
+   (:background chocolate-syntax-light))
   (magit-popup-option-value
    (:inherit 'font-lock-string-face))
   (magit-popup-disabled-argument
@@ -1455,6 +1465,42 @@
    (:slant 'italic))
   (bold
    (:weight 'bold))
+  (helm-ag-edit-deleted-line
+   (:strike-through t :inherit 'font-lock-comment-face))
+  (swiper-line-face
+   (:foreground chocolate-syntax-bg-dark :background chocolate-hue-1))
+  (swiper-match-face-4
+   (:weight 'bold :foreground chocolate-syntax-bg-dark :background chocolate-syntax-added))
+  (swiper-match-face-3
+   (:weight 'bold :foreground chocolate-syntax-bg-dark :background chocolate-mono-1))
+  (swiper-match-face-2
+   (:weight 'bold :foreground chocolate-syntax-bg-dark :background chocolate-hue-6))
+  (swiper-match-face-1
+   (:foreground chocolate-mono-3 :background chocolate-syntax-bg-dark))
+  (git-gutter-fr+-deleted
+   (:foreground chocolate-syntax-removed :background chocolate-syntax-removed :inherit 'git-gutter+-deleted))
+  (git-gutter-fr+-added
+   (:foreground chocolate-syntax-added :background chocolate-syntax-added :inherit 'git-gutter+-added))
+  (git-gutter-fr+-modified
+   (:foreground chocolate-syntax-modified :background chocolate-syntax-modified :inherit 'git-gutter+-modified))
+  (git-gutter+-commit-header-face
+   (:inherit 'font-lock-comment-face))
+  (git-gutter+-unchanged
+   (:background chocolate-syntax-accent))
+  (git-gutter+-deleted
+   (:foreground chocolate-hue-5))
+  (git-gutter+-added
+   (:foreground chocolate-syntax-added))
+  (git-gutter+-modified
+   (:foreground chocolate-hue-6-2))
+  (git-gutter+-separator
+   (:weight 'bold :foreground chocolate-syntax-renamed))
+  (pulse-highlight-face
+   (:background chocolate-hue-6-3))
+  (pulse-highlight-start-face
+   (:background chocolate-hue-6-3))
+  (which-func
+   (:foreground chocolate-hue-1))
   ))
 
 (provide-theme 'chocolate)
