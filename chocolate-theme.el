@@ -93,7 +93,7 @@
   (ivy-confirm-face (:foreground chocolate-syntax-bg-dark :inherit 'minibuffer-prompt))
   (ivy-minibuffer-match-face-4 (:foreground chocolate-hue-6-2 :inherit 'ivy-minibuffer-match-face-1))
   (ivy-minibuffer-match-face-3 (:foreground chocolate-syntax-added :inherit 'ivy-minibuffer-match-face-1))
-  (ivy-minibuffer-match-face-2 (:foreground chocolate-mono-1 :inherit 'ivy-minibuffer-match-face-1))
+  (ivy-minibuffer-match-face-2 (:foreground chocolate-hue-6 :inherit 'ivy-minibuffer-match-face-1))
   (ivy-minibuffer-match-face-1 (:weight 'bold :foreground chocolate-mono-3 :background chocolate-syntax-bg-dark))
   (ivy-minibuffer-match-highlight (:inherit 'highlight))
   (ivy-current-match (:weight 'bold :background chocolate-mono-3))
