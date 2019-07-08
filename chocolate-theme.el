@@ -82,7 +82,7 @@
   (font-lock-builtin-face (:foreground chocolate-syntax-accent))
   (font-lock-constant-face (:foreground chocolate-hue-6))
   (font-lock-comment-face (:foreground chocolate-mono-3))
-  (font-lock-function-name-face (:foreground chocolate-hue-1))
+  (font-lock-function-name-face (:weight 'bold :foreground chocolate-hue-1))
   (font-lock-keyword-face (:foreground chocolate-hue-3))
   (font-lock-string-face (:foreground chocolate-hue-6-2))
   (font-lock-variable-name-face (:foreground chocolate-hue-5))
@@ -178,6 +178,11 @@
   (ivy-minibuffer-match-highlight (:inherit 'highlight))
   (ivy-current-match (:weight 'bold :background chocolate-mono-3))
   (ivy-cursor (:foreground chocolate-hue-2 :background chocolate-syntax-bg-dark))
+
+  ;; MODE support: js2
+  (js2-function-param (:foreground chocolate-hue-1))
+  (js2-external-variable (:weight 'bold :foreground chocolate-hue-7))
+  (js2-function-call (:foreground chocolate-hue-6))
 
   ;; MODE SUPPORT: popup
   (popup-face (:foreground chocolate-hue-4
