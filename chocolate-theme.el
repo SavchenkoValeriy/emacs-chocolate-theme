@@ -184,6 +184,10 @@
   (js2-external-variable (:weight 'bold :foreground chocolate-hue-7))
   (js2-function-call (:foreground chocolate-hue-6))
 
+  ;; MODE support: display-line-numbers
+  (line-number (:foreground chocolate-mono-3))
+  (line-number-current-line (:foreground chocolate-mono-2 :weight 'bold))
+
   ;; MODE SUPPORT: popup
   (popup-face (:foreground chocolate-hue-4
                            :background chocolate-syntax-light))
