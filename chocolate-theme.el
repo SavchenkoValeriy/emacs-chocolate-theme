@@ -212,6 +212,23 @@
   (ediff-odd-diff-B (:inherit 'ediff-even-diff-B))
   (ediff-odd-diff-C (:inherit 'ediff-even-diff-C))
 
+  ;; MODE SUPPORT: org
+  (org-table (:foreground chocolate-hue-1-5))
+  (org-date (:foreground chocolate-hue-1-3))
+  (org-done (:foreground chocolate-hue-9))
+  (org-agenda-done (:foreground chocolate-hue-9))
+  (org-headline-done (:foreground chocolate-hue-5-3))
+  (org-formula (:foreground chocolate-syntax-accent))
+  (org-document-title (:foreground chocolate-hue-1))
+  (org-document-info (:foreground chocolate-hue-1))
+  (org-agenda-structure (:foreground chocolate-hue-1-5))
+  (org-scheduled (:foreground chocolate-hue-9))
+  (org-scheduled-today (:foreground chocolate-hue-9))
+  (org-agenda-dimmed-todo-face (:foreground chocolate-mono-3))
+  (org-scheduled-previously (:foreground chocolate-syntax-accent))
+  (org-agenda-restriction-lock (:background chocolate-syntax-bg-dark))
+  (org-time-grid (:foreground chocolate-hue-7))
+
   ;; MODE SUPPORT: popup
   (popup-face (:foreground chocolate-hue-4
                            :background chocolate-syntax-light))
@@ -232,6 +249,7 @@
 
   ;; MODE SUPPORT: latex
   (font-latex-sectioning-5-face (:foreground chocolate-hue-6-2))
+  (font-latex-italic-face (:foreground chocolate-hue-9-5 :inherit 'italic))
 
   (ffap
    (:inherit 'highlight))
