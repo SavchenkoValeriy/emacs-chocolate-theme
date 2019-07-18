@@ -13,3 +13,7 @@
 ### Python
 
 ![python](assets/py-screenshot.png)
+
+### Ediff
+
+![ediff](assets/ediff-screenshot.png)

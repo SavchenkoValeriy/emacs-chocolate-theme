@@ -64,7 +64,13 @@
   (chocolate-syntax-renamed   "#329fff")
   (chocolate-syntax-added     "#43d089")
   (chocolate-syntax-modified  "#e0c184")
-  (chocolate-syntax-removed   "#e05151"))
+  (chocolate-syntax-removed   "#e05151")
+  (chocolate-darker-green     "#292D29")
+  (chocolate-dark-green       "#2A382F")
+  (chocolate-darker-red       "#4B2729")
+  (chocolate-dark-red         "#632E2F")
+  (chocolate-darker-yellow    "#483B31")
+  (chocolate-dark-yellow      "#594A3B"))
 
  ((default (:foreground chocolate-hue-4 :background chocolate-syntax-bg))
   (cursor (:background chocolate-hue-4))
@@ -187,6 +193,24 @@
   ;; MODE support: display-line-numbers
   (line-number (:foreground chocolate-mono-3))
   (line-number-current-line (:foreground chocolate-mono-2 :weight 'bold))
+
+  ;; MODE support: ediff
+  (ediff-current-diff-A (:background chocolate-darker-red))
+  (ediff-current-diff-Ancestor (:inherit 'ediff-current-diff-A))
+  (ediff-current-diff-B (:background chocolate-darker-green))
+  (ediff-current-diff-C (:background chocolate-darker-yellow))
+  (ediff-even-diff-A (:background chocolate-syntax-light))
+  (ediff-even-diff-Ancestor (:inherit 'ediff-even-diff-A))
+  (ediff-even-diff-B (:background chocolate-syntax-light))
+  (ediff-even-diff-C (:background chocolate-syntax-light))
+  (ediff-fine-diff-A (:background chocolate-dark-red))
+  (ediff-fine-diff-Ancestor (:inherit 'ediff-fine-diff-A))
+  (ediff-fine-diff-B (:background chocolate-dark-green))
+  (ediff-fine-diff-C (:background chocolate-dark-yellow))
+  (ediff-odd-diff-A (:inherut 'ediff-even-diff-A))
+  (ediff-odd-diff-Ancestor (:inherit 'ediff-odd-diff-A))
+  (ediff-odd-diff-B (:inherit 'ediff-even-diff-B))
+  (ediff-odd-diff-C (:inherit 'ediff-even-diff-C))
 
   ;; MODE SUPPORT: popup
   (popup-face (:foreground chocolate-hue-4
