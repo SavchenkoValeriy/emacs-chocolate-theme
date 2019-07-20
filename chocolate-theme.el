@@ -1,23 +1,20 @@
-;;; chocolate-theme.el --- Chocolatey theme for Emacs
+;;; chocolate-theme.el --- A dark chocolaty theme -*- lexical-binding: t; -*-
 
-;; Copyright (c) 2018 Valeriy Savchenko (GNU/GPL Licence)
+;; Copyright (c) 2018-2019 Valeriy Savchenko (GNU/GPL Licence)
 
 ;; Authors: Valeriy Savchenko <sinmipt@gmail.com>
 ;; URL: http://github.com/SavchenkoValeriy/emacs-chocolate-theme
-;; Version: 0.1.0
-;; Package-Requires: ((autothemer "0.2"))
+;; Version: 0.2.0
+;; Package-Requires: ((emacs "24.1") (autothemer "0.2"))
 
 ;;; Commentary:
-;;  Poor doggies are not able to experience it because of two reasons
+;;  Poor doggies can't experience it because of two reasons
 
 ;;; Code:
 (require 'autothemer)
 
-(unless (>= emacs-major-version 24)
-  (error "Requires Emacs 24 or later"))
-
 (autothemer-deftheme
- chocolate "Poor doggies are not able to experience it because of two reasons"
+ chocolate "Poor doggies can't experience it because of two reasons"
 
  ((((class color) (min-colors #xFFFFFF))) ;; color column 1 GUI/24bit
 
