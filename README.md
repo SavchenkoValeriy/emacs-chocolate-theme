@@ -1,4 +1,4 @@
-# Chocolate theme
+# Chocolate theme [![MELPA](https://melpa.org/packages/chocolate-theme-badge.svg)](https://melpa.org/#/chocolate-theme)
 
 ![chocolate theme banner](assets/Chocolate_banner.png)
 > Poor doggies can't experience it because of two reasons
@@ -14,6 +14,7 @@ Chocolate theme is my personal attempt to develop a complex fully-functional the
 It's available on [Melpa](https://melpa.org/):
 
 <kbd>M-x package-install [RET] chocolate-theme [RET]</kbd>
+
 <kbd>M-x load-theme [RET] chocolate [RET]</kbd>
 
 Or using [use-package](https://github.com/jwiegley/use-package):
