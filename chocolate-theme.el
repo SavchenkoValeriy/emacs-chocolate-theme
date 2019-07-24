@@ -1360,6 +1360,8 @@
    (:foreground chocolate-hue-5-2))
   (w3m-haddock-heading-face
    (:inherit 'highlight))
+
+  ;; MODE SUPPORT: haskell
   (haskell-hole-face
    (:underline
     (:style 'wave :color chocolate-hue-1)))
@@ -1389,10 +1391,8 @@
    (:inherit 'font-lock-preprocessor-face))
   (haskell-operator-face
    (:inherit 'font-lock-variable-name-face))
-  (haskell-constructor-face
-   (:inherit 'font-lock-type-face))
-  (haskell-type-face
-   (:inherit 'font-lock-type-face))
+  (haskell-type-face (:foreground chocolate-hue-6))
+  (haskell-constructor-face (:foreground chocolate-hue-6-2))
   (haskell-keyword-face
    (:inherit 'font-lock-keyword-face))
   (haskell-debug-muted-face
