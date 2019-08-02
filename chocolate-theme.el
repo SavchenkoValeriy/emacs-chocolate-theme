@@ -55,6 +55,7 @@
   (chocolate-hue-9-4          "#46BB83")
   (chocolate-hue-9-5          "#41AE7A")
   (chocolate-syntax-light     "#4B393E")
+  (chocolate-syntax-bg-light  "#3E2F33")
   (chocolate-syntax-bg        "#33272A")
   (chocolate-syntax-bg-dark   "#261D1F")
   (chocolate-syntax-accent    "#F88425")
@@ -79,7 +80,7 @@
   (linum (:foreground chocolate-hue-4-2))
   (region (:background chocolate-syntax-light :distant-foreground chocolate-hue-4))
   (secondary-selection (:background chocolate-syntax-light))
-  (hl-line (:background chocolate-syntax-light))
+  (hl-line (:background chocolate-syntax-bg-light))
 
   ;; Built-in syntax
   (font-lock-builtin-face (:foreground chocolate-syntax-accent))
@@ -196,10 +197,10 @@
   (ediff-current-diff-Ancestor (:inherit 'ediff-current-diff-A))
   (ediff-current-diff-B (:background chocolate-darker-green))
   (ediff-current-diff-C (:background chocolate-darker-yellow))
-  (ediff-even-diff-A (:background chocolate-syntax-light))
+  (ediff-even-diff-A (:background chocolate-syntax-bg-light))
   (ediff-even-diff-Ancestor (:inherit 'ediff-even-diff-A))
-  (ediff-even-diff-B (:background chocolate-syntax-light))
-  (ediff-even-diff-C (:background chocolate-syntax-light))
+  (ediff-even-diff-B (:background chocolate-syntax-bg-light))
+  (ediff-even-diff-C (:background chocolate-syntax-bg-light))
   (ediff-fine-diff-A (:background chocolate-dark-red))
   (ediff-fine-diff-Ancestor (:inherit 'ediff-fine-diff-A))
   (ediff-fine-diff-B (:background chocolate-dark-green))
@@ -1105,7 +1106,7 @@
   (magit-section-heading
    (:weight 'bold :foreground chocolate-hue-1))
   (magit-section-highlight
-   (:background chocolate-syntax-light))
+   (:background chocolate-syntax-bg-light))
   (magit-popup-option-value
    (:inherit 'font-lock-string-face))
   (magit-popup-disabled-argument
