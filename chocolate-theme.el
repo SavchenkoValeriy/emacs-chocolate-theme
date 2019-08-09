@@ -1480,7 +1480,7 @@
    (:inherit
     ('bold 'font-lock-function-name-face)))
   (tooltip
-   (:foreground chocolate-mono-1 :background chocolate-syntax-bg))
+   (:foreground chocolate-mono-1 :background chocolate-syntax-bg-light))
   (eldoc-highlight-function-argument
    (:inherit 'bold))
   (vc-edited-state
