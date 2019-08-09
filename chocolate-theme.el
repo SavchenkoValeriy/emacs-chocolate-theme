@@ -258,6 +258,7 @@
   ;; MODE SUPPORT: latex
   (font-latex-sectioning-5-face (:foreground chocolate-hue-6-2))
   (font-latex-italic-face (:foreground chocolate-hue-9-5 :inherit 'italic))
+  (font-latex-bold-face (:foreground chocolate-hue-7 :inherit 'bold))
 
   (ffap
    (:inherit 'highlight))
