@@ -245,6 +245,16 @@
   (powerline-inactive2 (:background chocolate-syntax-bg-dark :inherit 'mode-line-inactive))
   (spaceline-highlight-face (:background chocolate-hue-6 :foreground chocolate-syntax-bg-dark))
 
+  ;; MODE SUPPORT: centaur tabs
+  (centaur-tabs-default (:background chocolate-syntax-bg-dark :foreground chocolate-hue-4))
+  (centaur-tabs-selected (:background chocolate-syntax-bg :foreground chocolate-hue-4 :weight 'bold))
+  (centaur-tabs-unselected (:background chocolate-syntax-bg-dark :foreground chocolate-mono-3 :weight 'light))
+  (centaur-tabs-selected-modified (:background chocolate-syntax-bg :foreground chocolate-hue-6 :weight 'bold))
+  (centaur-tabs-unselected-modified (:background chocolate-syntax-bg-dark :foreground chocolate-hue-6-3 :weight 'light))
+  (centaur-tabs-active-bar-face (:background chocolate-hue-7))
+  (centaur-tabs-modified-marker-selected (:inherit 'centaur-tabs-selected-modified :foreground chocolate-hue-6-2))
+  (centaur-tabs-modified-marker-unselected (:inherit 'centaur-tabs-unselected-modified))
+
   ;; MODE SUPPORT: latex
   (font-latex-sectioning-5-face (:foreground chocolate-hue-6-2))
   (font-latex-italic-face (:foreground chocolate-hue-9-5 :inherit 'italic))
