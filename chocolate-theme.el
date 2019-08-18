@@ -983,7 +983,7 @@
   (magit-log-graph
    (:foreground chocolate-mono-3))
   (magit-diffstat-removed
-   (:foreground chocolate-hue-5))
+   (:foreground chocolate-syntax-removed))
   (magit-diffstat-added
    (:foreground chocolate-syntax-added))
   (magit-diff-whitespace-warning
@@ -997,7 +997,7 @@
   (magit-diff-our-highlight
    (:inherit 'magit-diff-removed-highlight))
   (magit-diff-removed-highlight
-   (:weight 'bold :foreground chocolate-hue-5 :background chocolate-syntax-bg))
+   (:weight 'bold :foreground chocolate-syntax-removed :background chocolate-syntax-bg))
   (magit-diff-added-highlight
    (:weight 'bold :foreground chocolate-syntax-added :background chocolate-syntax-light))
   (magit-diff-context
@@ -1011,7 +1011,7 @@
   (magit-diff-removed
    (:foreground chocolate-hue-5-2 :background chocolate-syntax-bg))
   (magit-diff-added
-   (:foreground chocolate-mono-3 :background chocolate-syntax-bg))
+   (:foreground chocolate-hue-9-5 :background chocolate-syntax-bg))
   (magit-diff-conflict-heading
    (:inherit 'magit-diff-hunk-heading))
   (magit-diff-lines-boundary
