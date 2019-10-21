@@ -175,6 +175,7 @@
   (ivy-subdir (:inherit 'dired-directory))
   (ivy-match-required-face (:foreground chocolate-syntax-accent :inherit 'minibuffer-prompt))
   (ivy-confirm-face (:foreground chocolate-syntax-bg-dark :inherit 'minibuffer-prompt))
+  (ivy-org (:foreground chocolate-hue-1-5))
   (ivy-minibuffer-match-face-4 (:foreground chocolate-hue-6-2 :inherit 'ivy-minibuffer-match-face-1))
   (ivy-minibuffer-match-face-3 (:foreground chocolate-syntax-added :inherit 'ivy-minibuffer-match-face-1))
   (ivy-minibuffer-match-face-2 (:foreground chocolate-hue-6 :inherit 'ivy-minibuffer-match-face-1))
