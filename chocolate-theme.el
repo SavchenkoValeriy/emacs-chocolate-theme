@@ -245,6 +245,14 @@
   (powerline-inactive1 (:background chocolate-syntax-bg-dark :inherit 'mode-line-inactive))
   (powerline-inactive2 (:background chocolate-syntax-bg-dark :inherit 'mode-line-inactive))
   (spaceline-highlight-face (:background chocolate-hue-6 :foreground chocolate-syntax-bg-dark))
+  
+    ;; MODE SUPPORT tab-bar-mode
+  (tab-bar (:foreground chocolate-hue-4 :background chocolate-syntax-bg-dark))
+  (tab-bar-tab (:foreground chocolate-hue-4 :background chocolate-syntax-bg-dark))
+
+  ;; MODE SUPPORT tab-line-mode
+  (tab-line (:foreground chocolate-hue-4 :background chocolate-syntax-bg-dark))
+  (tab-bar-tab-inactive (:foreground chocolate-hue-4 :background chocolate-syntax-bg-dark))
 
   ;; MODE SUPPORT: centaur tabs
   (centaur-tabs-default (:background chocolate-syntax-bg-dark :foreground chocolate-hue-4))
