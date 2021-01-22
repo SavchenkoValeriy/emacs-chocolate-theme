@@ -211,6 +211,11 @@
   (ediff-odd-diff-B (:inherit 'ediff-even-diff-B))
   (ediff-odd-diff-C (:inherit 'ediff-even-diff-C))
 
+  ;; MODE SUPPORT: diff-hl
+  (diff-hl-change (:background chocolate-dark-yellow :foreground chocolate-syntax-modified))
+  (diff-hl-insert (:background chocolate-dark-green :foreground chocolate-syntax-added))
+  (diff-hl-delete (:background chocolate-dark-red :foreground chocolate-syntax-removed))
+
   ;; MODE SUPPORT: org
   (org-table (:foreground chocolate-hue-1-5))
   (org-date (:foreground chocolate-hue-1-3))
