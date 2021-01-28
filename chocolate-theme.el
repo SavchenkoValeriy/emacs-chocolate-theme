@@ -184,6 +184,9 @@
   (ivy-current-match (:weight 'bold :background chocolate-mono-3))
   (ivy-cursor (:foreground chocolate-hue-2 :background chocolate-syntax-bg-dark))
 
+  ;; MODE SUPPORT: selectrum
+  (selectrum-current-candidate (:background chocolate-syntax-light))
+
   ;; MODE support: js2
   (js2-function-param (:foreground chocolate-hue-1))
   (js2-external-variable (:weight 'bold :foreground chocolate-hue-7))
